@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npx tsc",
     "dev": "node --import tsx --watch src/server.ts"
   },
   "keywords": [],
@@ -21,7 +21,7 @@
     "mongoose": "^9.7.0",
     "multer": "^2.2.0",
     "stripe": "^22.2.2",
-    "typescript": "^5.x.x"
+    "typescript": "^6.0.3"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
